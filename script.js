@@ -14,44 +14,6 @@ Lag et tredje view hvor vi kan vise hvilke pokemon vi
  lage dette nye viewet, og kanskje skrive litt CSS for å 
  style dette.*/
 
-let pikachu = {
-  name: "Pikachu",
-  health: 45,
-  image: "../images/pikachu.png",
-  level: 8,
-};
-let bulbasaur = {
-  name: "Bulbasaur",
-  health: 70,
-  image: "../images/bulbasaur.png",
-  level: 12,
-};
-let oranguru = {
-  name: "Oranguru",
-  health: 170,
-  image: "../images/oranguru.png",
-  level: 45,
-};
-
-let drowzee = {
-  name: "Drowzee",
-  health: 90,
-  image: "../images/drowzee.png",
-  level: 33,
-};
-
-let galarianPonyta = {
-  name: "Galarian Ponyta",
-  health: 70,
-  image: "../images/galarian-ponyta.png",
-  level: 15,
-};
-
-let ashKetchum = {
-  name: "Ash Ketchum",
-  image: "../images/ash-ketchum.png",
-};
-
 let possiblePokemons = [
   {
     name: "Pikachu",
@@ -59,13 +21,35 @@ let possiblePokemons = [
     image: "../images/pikachu.png",
     level: 8,
   },
-
-  pikachu,
-  bulbasaur,
-  oranguru,
-  drowzee,
-  galarianPonyta,
+  {
+    name: "Bulbasaur",
+    health: 70,
+    image: "../images/bulbasaur.png",
+    level: 12,
+  },
+  {
+    name: "Oranguru",
+    health: 170,
+    image: "../images/oranguru.png",
+    level: 45,
+  },
+  {
+    name: "Drowzee",
+    health: 90,
+    image: "../images/drowzee.png",
+    level: 33,
+  },
+  {
+    name: "Galarian Ponyta",
+    health: 70,
+    image: "../images/galarian-ponyta.png",
+    level: 15,
+  },
 ];
+let ashKetchum = {
+  name: "Ash Ketchum",
+  image: "../images/ash-ketchum.png",
+};
 let randomPokemon = null;
 let playerPokemon = [];
 
