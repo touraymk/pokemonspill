@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+#app {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.opposingPokemon {
+  margin-left: 50%;
+}
+
+.buttonContainer {
+  width: 200px;
+  display: flex;
+  margin-bottom: 22px;
+  margin-left: 50%;
+}
+
+.buttomScreen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.caughtContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pokemonPartyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  margin: 20px;
+}
+
+.pokemonBoxDisplay {
+  text-align: center;
+  color: #6bde73;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #6bde73;
+  margin: 10px;
+  padding: 20px;
+}
+
+.partyImg {
+  width: 40px;
+  height: 40px;
+}
+
+img {
+  width: auto;
+  height: 250px;
+}
+
+button {
+  height: 70px;
+  width: 100px;
+}
